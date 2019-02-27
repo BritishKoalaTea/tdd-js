@@ -1,15 +1,15 @@
 {
-  "name": "learnjest",
+  "name": "tdd-js",
   "version": "1.0.0",
-  "description": "Example tests for learning Jest",
-  "main": "sum.js",
+  "description": "test-driven JavaScript",
+  "main": "maths.js",
   "scripts": {
     "test": "jest"
   },
   "author": "Alison Hawke",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "jest": "^24.1.0"
   },
   "dependencies": {},
   "jest": {
