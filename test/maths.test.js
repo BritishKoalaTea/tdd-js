@@ -3,6 +3,8 @@ const maths = require('../maths.js');
 describe('mathematics addition and multiplication tests', () => {
   test('should add 1 + 2 to equal 3', () => {
     expect(maths.add(1, 2)).toBe(3);
+    expect(maths.add(5, 13)).toBe(18);
+    expect(maths.add(10, -2)).toBe(8);
   });
   
   test('should multiply two numbers correctly', () => {
