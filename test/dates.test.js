@@ -11,9 +11,9 @@ describe('Date operations', () => {
         // Friday 1st March, 2019
         expect(dateFunctions.dayOfTheFirstOfMonth(2019, 2)).toEqual(5);
          // Saturday 1st February, 2020
-        expect(dateFunctions.dayOfTheFirstOfMonth(2020, 2)).toEqual(6);
+        expect(dateFunctions.dayOfTheFirstOfMonth(2020, 1)).toEqual(6);
          // Monday 1st November, 2021
-        expect(dateFunctions.dayOfTheFirstOfMonth(2020, 11)).toEqual(1);
+        expect(dateFunctions.dayOfTheFirstOfMonth(2021, 10)).toEqual(1);
     });
 });
 
