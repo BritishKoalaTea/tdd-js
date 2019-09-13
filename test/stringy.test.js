@@ -4,7 +4,7 @@ describe('String operations', () => {
 
     test('Can make a greeting', () => {
         result = stringy.joinTwoStrings('hello', ' world')
-        expect(result).toEqual('hello world');
+        expect(result).toEqual('hello world');        
     });
 
     test('Can make a longer greeting', () => {
@@ -15,5 +15,12 @@ describe('String operations', () => {
     test('Can get the thirteenth letter of the alphabet', () => {
         result = stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 13)
         expect(result).toEqual('m');
+    });
+    
+    test('Can get the Nth letter of the alphabet', () => {
+        result = stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 5)
+        expect(result).toEqual('e');
+        expect(stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 8)).toEqual('h');
+        expect(stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 25)).toEqual('y');
     });
 });
