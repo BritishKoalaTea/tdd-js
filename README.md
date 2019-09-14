@@ -8,7 +8,7 @@ Run: 'npm run test'
 
 There are 22 tests total. Right now, three pass, those are demonstration tests to show you how to do some test setup. 
 
-# Work them in this order: maths, stringy, songs, dates. #
+## Work them in this order: maths, stringy, songs, dates. ##
 
 Tests for:
 * Add two numbers
