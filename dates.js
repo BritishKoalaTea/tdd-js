@@ -23,4 +23,4 @@ export default {
     dayOfTheWeek,
     hasFridayThirteenth,
    numberOfFriday13thsThisYear
-}
+};
