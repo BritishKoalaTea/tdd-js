@@ -2,6 +2,6 @@ function bottlesofbeeronthewall(bottles) {
    
 }
 
-export default {
+module.exports = {
     bottlesofbeeronthewall
 };
