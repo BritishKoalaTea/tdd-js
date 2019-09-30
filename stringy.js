@@ -9,4 +9,4 @@ function getTheNthLetter(testString, n) {
 export default {
     joinTwoStrings,
     getTheNthLetter
-}
+};
