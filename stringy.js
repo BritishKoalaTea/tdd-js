@@ -6,7 +6,7 @@ function getTheNthLetter(testString, n) {
     
 }
 
-module.exports = {
+export default {
     joinTwoStrings,
     getTheNthLetter
 }
