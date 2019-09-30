@@ -19,4 +19,4 @@ export default {
     multiply,
     square,
     cube
-  }
+  };
