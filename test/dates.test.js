@@ -37,12 +37,12 @@ describe('Test for Friday 13th', () => {
 
     test('April 2018 does have a Friday 13th', () => {
         result = dateFunctions.hasFridayThirteenth(2018, 3);
-        expect(result).toBe(true)
+        expect(result).toBe(true);
     });
 
     test('May 2018 does not have a Friday 13th', () => {
         result = dateFunctions.hasFridayThirteenth(2018, 4);
-        expect(result).toBe(false)
+        expect(result).toBe(false);
     });
 });
 
@@ -50,17 +50,17 @@ describe('Test for number of Friday 13th in a year', () => {
     // you always get between 1 and 3 Friday 13ths in a year
 
     test('Number of Friday 13ths in 2000 was 1', () => {
-        result = dateFunctions.numberOfFriday13thsThisYear(2000)
+        result = dateFunctions.numberOfFriday13thsThisYear(2000);
         expect(result).toEqual(1);
     });
 
     test('Number of Friday 13ths in 2017 was 2', () => {
-        result = dateFunctions.numberOfFriday13thsThisYear(2017)
+        result = dateFunctions.numberOfFriday13thsThisYear(2017);
         expect(result).toEqual(2);
     });
 
     test('Number of Friday 13ths in 2015 was 3', () => {
-        result = dateFunctions.numberOfFriday13thsThisYear(2015)
+        result = dateFunctions.numberOfFriday13thsThisYear(2015);
         expect(result).toEqual(3);
     });
 });
