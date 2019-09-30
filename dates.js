@@ -18,7 +18,7 @@ function numberOfFriday13thsThisYear(year) {
 
 }
 
-module.exports = {
+export default {
     dayOfTheFirstOfMonth,
     dayOfTheWeek,
     hasFridayThirteenth,
