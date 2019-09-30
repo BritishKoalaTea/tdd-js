@@ -18,17 +18,17 @@ afterEach(() => {
 
 describe('Example for setup and teare down methods', () => {
     test('Illustrate what beforeAll, beforeEach, after Each, and afterAll do', () => {
-        console.log('** First test')
+        console.log('** First test');
         expect(true).toBeTruthy;
     });
 
     test('Second test for setup and tear down', () => {
-        console.log('** Second test')
+        console.log('** Second test');
         expect(false).toBeFalsy;
     });
 
     test('Third test for setup and tear down', () => {
-        console.log('** Third test')
+        console.log('** Third test');
         expect(true).toBeTruthy;
     });
 });
