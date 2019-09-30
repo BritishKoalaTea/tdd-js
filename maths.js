@@ -14,7 +14,7 @@ function add(a, b) {
     
   }
 
-  module.exports = {
+export default {
     add,
     multiply,
     square,
