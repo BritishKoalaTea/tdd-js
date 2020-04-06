@@ -11,6 +11,10 @@
   "devDependencies": {
     "jest": "^24.1.0"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/BritishKoalaTea/tdd-js.git"
+   },
   "dependencies": {},
   "jest": {
     "verbose": true,
