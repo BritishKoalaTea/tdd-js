@@ -8,6 +8,8 @@ Run: 'npm run test'
 
 There are 22 tests total. Right now, three pass, those are demonstration tests to show you how to do some test setup. 
 
+To run just one test, use 'npm run test -t test/dates.test.js'
+
 ## Work them in this order: maths, stringy, songs, dates. ##
 
 Tests for:
