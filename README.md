@@ -17,7 +17,7 @@ Once you have a test working, figure out two ways to break it by changing the co
 Tests for:
 * Add two numbers
 * Multiply two numbers
-* Square a numbers
+* Square a number
 * Cube a number
 * Concatenate two strings
 * Get the Nth letter in a given phrase
