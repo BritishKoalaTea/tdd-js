@@ -24,4 +24,4 @@ Tests for:
 * For '99 bottles of beer on the wall,' handle the 2, 1, and 0 cases
 * What day of the week a month starts on
 * What day of the week a date is
-* Whether as given month/year has a Friday the Thirteenth
+* Whether a given month/year combination has a Friday the Thirteenth
