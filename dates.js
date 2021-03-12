@@ -10,6 +10,10 @@ function dayOfTheWeek(year, month, day) {
    
 }
 
+function dayNameOfTheWeek(year, month, day) { 
+
+}
+
 function hasFridayThirteenth(year, month) {
    
 }
@@ -19,8 +23,9 @@ function numberOfFriday13thsThisYear(year) {
 }
 
 module.exports = {
-    dayOfTheFirstOfMonth,
-    dayOfTheWeek,
-    hasFridayThirteenth,
+   dayOfTheFirstOfMonth,
+   dayOfTheWeek,
+   dayNameOfTheWeek,
+   hasFridayThirteenth,
    numberOfFriday13thsThisYear
 };
