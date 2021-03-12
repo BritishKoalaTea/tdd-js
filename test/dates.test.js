@@ -23,14 +23,22 @@ describe('Test for day of the week', () => {
        expect(dateFunctions.dayOfTheWeek(2018, 3, 11)).toEqual(3);
     });
 
-    test('Test that January 1, 1970 was a Thursday', () => {
-        expect(dateFunctions.dayOfTheWeek(1970, 0, 1)).toEqual(4);
+    test('Test that the Moon landing was on a Sunday', () => {
+        expect(dateFunctions.dayOfTheWeek(1969, 6, 20)).toEqual(0);
     });
 
     test('Test that Independence Day 1776 was on a Thursday', () => {
         // Thursday 4th July, 1776
         expect(dateFunctions.dayOfTheWeek(1776, 6, 4)).toEqual(4);
     });
+
+    test('Test for the day name of Independence Day', () => {
+        expect(dateFunctions.dayNameOfTheWeek(1776, 6, 4)).toContain('Thursday');
+    })
+
+    test('Test for the day name of the Moon Landing', () => {
+        expect(dateFunctions.dayNameOfTheWeek(1969, 6, 20)).toContain('Sunday');
+    })
 });
 
 describe('Test for Friday 13th', () => {
