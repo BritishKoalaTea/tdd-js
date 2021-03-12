@@ -6,7 +6,7 @@ Install: 'npm install'
 
 Run: 'npm run test'
 
-There are 26 tests total, in 4 test suites. Right now, 3 tests pass, those are demonstration tests to show you how to do some test setup. 
+There are 28 tests total, in 4 test suites. Right now, 3 tests pass, those are demonstration tests to show you how to do some test setup. 
 
 To run just one test, use 'npm run test -t test/maths.test.js'
 
