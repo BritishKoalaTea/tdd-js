@@ -22,6 +22,10 @@ describe('bottles of beer on the wall', () => {
         expect(songs.bottlesofbeeronthewall('zero')).toContain('go to the store and buy some more');
     });
 
+    it('should handle no bottles as input', () => {
+        expect(songs.bottlesofbeeronthewall('no')).toContain('go to the store and buy some more');
+    });
+
     it('should handle all the bottles', () => {
         expect(songs.bottlesofbeeronthewall(9)).toContain('9 bottles of beer on the wall');
         expect(songs.bottlesofbeeronthewall(81)).toContain('81 bottles of beer on the wall');
