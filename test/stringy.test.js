@@ -12,13 +12,13 @@ describe('String operations', () => {
         expect(result).toEqual('Greetings and salutations to you, good Person!');
     });
     
-    test('Can join three strings', () => {
-        result = stringy.joinThreeStrings("Once upon a time,", "it was a dark and stormy night", "when two testers walked into a bar." );
+    test('Can join three strings without spaces', () => {
+        result = stringy.joinThreeStringsWithoutSpaces("Once upon a time,", "it was a dark and stormy night", "when two testers walked into a bar." );
         expect(result).toEqual('Once upon a time, it was a dark and stormy night when two testers walked into a bar.');
     })
 
     test('Can get the thirteenth letter of the alphabet', () => {
-        result = stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 13);
+        result = stringy.getThe13thLetter('abcdefghijklmnopqrstuvwxyz');
         expect(result).toEqual('m');
     });
     
