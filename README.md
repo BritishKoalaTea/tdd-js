@@ -19,11 +19,17 @@ Once you have a test working, figure out two ways to break it by changing the co
 Tests for:
 * Add two numbers
 * Multiply two numbers
-* Square a number
+* Square a numbers
 * Cube a number
 * Concatenate two strings
+* Concatenate three strings without spaces
+* Get the 13th letter in a given phrase
 * Get the Nth letter in a given phrase
+* Sing '10 bottles of beer on the wall'
+* Sing 'N bottles of beer on the wall'
 * For '99 bottles of beer on the wall,' handle the 2, 1, and 0 cases
+* For '99 bottles of beer on the wall,' handle the zero, one, and no cases
 * What day of the week a month starts on
-* What day of the week a date is
-* Whether a given month/year combination has a Friday the Thirteenth
+* What day of the week a date is and the day name
+* Whether as given month/year has a Friday the Thirteenth
+* How many Friday Thirteenths in a given year
