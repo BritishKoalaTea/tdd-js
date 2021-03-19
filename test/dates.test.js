@@ -28,7 +28,6 @@ describe('Test for day of the week', () => {
     });
 
     test('Test that Independence Day 1776 was on a Thursday', () => {
-        // Thursday 4th July, 1776
         expect(dateFunctions.dayOfTheWeek(1776, 6, 4)).toEqual(4);
     });
 
