@@ -159,10 +159,13 @@ temp/
 
 ### vscode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
 *.code-workspace
+
+# eslint #
+.eslintrc.*
 
 # End of https://www.toptal.com/developers/gitignore/api/vscode,macos,node
