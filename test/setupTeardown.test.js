@@ -16,7 +16,7 @@ afterEach(() => {
     console.log('After each test');
 });
 
-describe('Example for setup and teare down methods', () => {
+describe('Example for setup and tear down methods', () => {
     test('Illustrate what beforeAll, beforeEach, after Each, and afterAll do', () => {
         console.log('** First test');
         expect(true).toBeTruthy;

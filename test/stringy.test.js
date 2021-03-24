@@ -17,12 +17,12 @@ describe('String operations', () => {
         expect(result).toEqual('Once upon a time, it was a dark and stormy night when two testers walked into a bar.');
     })
 
-    test('Can get the thirteenth letter of the alphabet', () => {
+    test('Can get the thirteenth character of the alphabet', () => {
         result = stringy.getThe13thLetter('abcdefghijklmnopqrstuvwxyz');
         expect(result).toEqual('m');
     });
     
-    test('Can get the Nth letter of the alphabet', () => {
+    test('Can get the Nth character of the alphabet', () => {
         result = stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 5);
         expect(result).toEqual('e');
         expect(stringy.getTheNthLetter('abcdefghijklmnopqrstuvwxyz', 8)).toEqual('h');
