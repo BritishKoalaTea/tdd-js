@@ -12,10 +12,9 @@
     "jest": "^24.1.0"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/BritishKoalaTea/tdd-js.git"
-   },
-  "dependencies": {},
+    "type": "git",
+    "url": "https://github.com/BritishKoalaTea/tdd-js.git"
+  },
   "jest": {
     "verbose": true,
     "testURL": "http://localhost/"
