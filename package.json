@@ -9,7 +9,7 @@
   "author": "Alison Hawke",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.1.0"
+    "jest": "^27.5.1"
   },
   "repository": {
     "type": "git",
